@@ -17,6 +17,7 @@ public class LoginTest {
 		driver= new ChromeDriver();
 	}
 	@Test
+	//
 	public void doLogin() {
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("Email")).sendKeys("puja.holy@gmail.com");
